@@ -56,12 +56,13 @@ header .login:hover svg path{
     stroke: #46a358;
 }
 .Banner article{
-    max-width: 557px;
+    max-width: 649px;
+    padding-left: 40px;
 }
 .Banner article span{
     color: green;
 }
-main .Banner h3{
+.Banner h3{
     font-family: "Cera Pro", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -72,7 +73,7 @@ main .Banner h3{
     text-decoration: none;
     margin-bottom: 7px;
 }
-main .Banner h1{
+.Banner h1{
     font-family: "Cera Pro", sans-serif;
     font-weight: 900;
     font-size: 70px;
@@ -81,8 +82,9 @@ main .Banner h1{
     color: #3d3d3d;
     text-decoration: none;
     margin-bottom: 5px;
+    margin-left: 3px;
 }
-main .Banner p{
+.Banner p{
     font-family: "Cera Pro", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -90,12 +92,15 @@ main .Banner p{
     color: #727272;
     text-decoration: none;
     margin-bottom: 44px;
+    margin-left: 3px
 }
-main .Banner a link{
+.link{
     background: #46a358;
     border-radius: 6px;
-    width: 140px;
-    height: 40px;
+    padding-top: 11px;
+    padding-right: 27px;
+    padding-bottom: 9px;
+    padding-left: 26px;
     font-family: "Cera Pro", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -103,7 +108,4 @@ main .Banner a link{
     color: #fff;
     list-style: none;
     text-decoration: none;
-}
-.Banner .container{
-    padding-left: 40px;
 }
