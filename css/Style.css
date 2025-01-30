@@ -316,6 +316,7 @@ header .login:hover svg path{
 .containerNumber{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 59px;
 }
 .containerNumber article{
     width: 268px;
