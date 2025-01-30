@@ -214,3 +214,152 @@ header .login:hover svg path{
     line-height: 89%;
     color: #46a358;
 }
+.containerTrends{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 586px;
+    margin-top: 69px;
+    background: #fbfbfb;
+    text-align: right;
+}
+.containerCactus{
+    display: flex;
+    justify-content: space-between;
+
+    text-align: right;
+    max-width: 586px;
+    margin-top: 69px;
+    background: #fbfbfb;
+}
+.containerTrends article h3{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-top: 89px;
+    margin-right: 35px;
+    margin-bottom: 9px;
+}
+.containerTrends article p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    text-decoration: none;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+.containerCactus article h3{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    text-decoration: none;
+    margin-top: 89px;
+    margin-right: 30px;
+    margin-bottom: 9px;
+}
+.containerCactus article p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.containerCactus article a{
+    text-align: right;
+    margin-right: 30px;
+}
+.containerTrends article a{
+    text-align: right;
+    margin-right: 35px;
+}
+.containerBlog h3{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-top: 148px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.containerBlog p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+    text-decoration: none;
+}
+.containerBlog{
+    padding-left: 119px;
+    max-width: 1200px;
+}
+.containerNumber{
+    display: flex;
+    justify-content: space-between;
+}
+.containerNumber article{
+    width: 268px;
+    background: #fbfbfb;
+    margin-left: 43px;
+}
+.containerNumber article h5{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.containerNumber article h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.containerNumber article p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-bottom: 9px;
+    text-align: left;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.containerNumber article a{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    padding-left: 15px;
+    text-decoration: none;
+    list-style: none;
+}
