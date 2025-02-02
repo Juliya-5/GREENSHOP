@@ -37,6 +37,7 @@ header nav ul li a{
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
+    position: relative;
 }
 header .login{
     background: #46a358;
@@ -58,9 +59,74 @@ header .login svg path{
     margin-right: 4px;
     ransition: 0.4s;
 }
+header nav li a:before{
+    content:"";
+    display: block;
+    background: #46a358;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: -25px;
+    transition: 0.4s;
+}
+header nav ul li a:hover{
+    color: #3D3D3D;
+    font-family: 'fontspring_demo_-_cera_proRg';
+}
+header nav ul li a:hover:before{
+    width: 100%;
+}
 header .login:hover{
     background-color: white;
     color: #46a358 ;
+}
+header nav ul li{
+    position: relative;
+}
+header nav ul li .dropdown{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: -70px;
+    padding-top: 40px;
+}
+header nav ul li .dropdown a:before{
+    display: none;
+}
+header nav ul li .dropdown a{
+    padding: 8px 14px;
+    width: 188px;
+    display: inline-block;
+    background: #EDF6EE;
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D3D3D;
+    line-height: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+header nav ul li .dropdown a:hover{
+    background-color: #1a712a;
+    color: white;
+}
+header nav li .dropdown li:last-of-type a:after{
+    content: "";
+    display: inline-block ;
+    width: 7px;
+    height: 10px;
+    position: absolute;
+    right: 17px;
+    top: 12px;
+    background-image: url("../images/arow.svg");
+}
+header nav ul li .dropdown a:hover:after{
+    background-image: url("../images/arow_hover.svg");
+    transform: rotate(180deg);
+}
+header nav ul li.drop:hover .dropdown{
+    display: block;
 }
 header .login:hover svg path{
     stroke: #46a358;
@@ -121,7 +187,7 @@ header .login:hover svg path{
     text-transform: uppercase;
 }
 .Categories{
-    max-width: 370px;
+    max-width: 310px;
     background: #fbfbfb;
     margin-top: 171px;
 }
@@ -139,7 +205,7 @@ header .login:hover svg path{
 }
 .List{
     margin-bottom: 377px;
-    margin-left: 18px;
+    margin-left: 30px;
 }
 .Categories ul li a{
     font-family: 'fontspring_demo_-_cera_proRg';
@@ -182,13 +248,33 @@ header .login:hover svg path{
 .containerCard{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-between;
 
     max-width: 840px;
     padding-left: 50px;
 }
 .containerCard article{
     margin-bottom: 70px;
+    border-top: solid transparent;
+    position: relative;
+}
+.containerCard article:hover{
+    border-top: solid #46a358;
+}
+.containerCard article .discont{
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    display: inline-block;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    position: absolute;
+    left: 0px;
+    top: 14px;
 }
 .containerCard article img{
     width: 250px;
@@ -214,12 +300,24 @@ header .login:hover svg path{
     line-height: 89%;
     color: #46a358;
 }
+.Blog{
+    max-width: 1202px;
+    margin: auto;
+    padding-top: 78px;
+    padding-left: 119px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 148px;
+}
 .containerTrends{
     display: flex;
     justify-content: space-between;
 
     max-width: 586px;
-    margin-top: 69px;
     background: #fbfbfb;
     text-align: right;
 }
@@ -229,7 +327,6 @@ header .login:hover svg path{
 
     text-align: right;
     max-width: 586px;
-    margin-top: 69px;
     background: #fbfbfb;
 }
 .containerTrends article h3{
@@ -295,7 +392,6 @@ header .login:hover svg path{
     line-height: 53%;
     text-align: center;
     color: #3d3d3d;
-    margin-top: 148px;
     margin-bottom: 15px;
     text-decoration: none;
 }
@@ -310,7 +406,6 @@ header .login:hover svg path{
     text-decoration: none;
 }
 .containerBlog{
-    padding-left: 119px;
     max-width: 1200px;
 }
 .containerNumber{
@@ -321,7 +416,6 @@ header .login:hover svg path{
 .containerNumber article{
     width: 268px;
     background: #fbfbfb;
-    margin-left: 43px;
 }
 .containerNumber article h5{
     font-family: 'fontspring_demo_-_cera_proRg';
@@ -330,7 +424,7 @@ header .login:hover svg path{
     line-height: 114%;
     color: #46a358;
     margin-bottom: 4px;
-    padding-left: 15px;
+    margin-left: 15px;
     text-decoration: none;
 }
 .containerNumber article h4{
@@ -340,7 +434,7 @@ header .login:hover svg path{
     line-height: 130%;
     color: #3d3d3d;
     margin-bottom: 4px;
-    padding-left: 15px;
+    margin-left: 15px;
     text-decoration: none;
 }
 .containerNumber article p{
@@ -351,7 +445,7 @@ header .login:hover svg path{
     color: #727272;
     margin-bottom: 9px;
     text-align: left;
-    padding-left: 15px;
+    margin-left: 15px;
     text-decoration: none;
 }
 .containerNumber article a{
@@ -360,7 +454,7 @@ header .login:hover svg path{
     font-size: 14px;
     line-height: 114%;
     color: #3d3d3d;
-    padding-left: 15px;
+    margin-left: 15px;
     text-decoration: none;
     list-style: none;
 }
