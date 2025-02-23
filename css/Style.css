@@ -198,9 +198,9 @@ header .login:hover svg path{
     line-height: 89%;
     color: #3d3d3d;
     text-decoration: none;
-    margin-top: 14px;
-    margin-bottom: 7px;
-    margin-left: 18px;
+    padding-top: 14px;
+    padding-bottom: 7px;
+    padding-left: 18px;
     text-transform: uppercase;
 }
 .List{
@@ -226,10 +226,10 @@ header .login:hover svg path{
 .containerShort{
     display: flex;
     justify-content: space-between;
-
-    margin-bottom: 28px;
-    padding-left: 50px;
+    max-width: 838px;
     margin-top: 171px;
+    margin-left: 50px;
+    margin-bottom: 31px;
 }
 .containerShort ul{
     display: flex;
@@ -249,9 +249,8 @@ header .login:hover svg path{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     max-width: 840px;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .containerCard article{
     margin-bottom: 70px;
@@ -276,14 +275,11 @@ header .login:hover svg path{
     left: 0px;
     top: 14px;
 }
-.containerCard article img{
+.containerCard .article img{
+    background: #fbfbfb;
+    margin-left: 4px;
     width: 250px;
     height: 250px;
-
-    mix-blend-mode: multiply;
-    margin-top: 23px;
-    margin-right: 4px;
-    margin-bottom: 39px;
 }
 .containerCard article h4{
     font-family: 'fontspring_demo_-_cera_proRg';
@@ -299,6 +295,36 @@ header .login:hover svg path{
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
+}
+.containerCard{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.containerCard{
+    position: relative;
+    transition: border-top 0.3s ;
+}
+.article .IconsLink{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -140px;
+    left: 41%;
+    gap: 26px;
+    transition: 0.3s;
+}
+.containerCard:hover .IconsLink{
+    opacity: 1;
+}
+.article .IconsLink a{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    bottom: 190px;
+    transition: .3s ease
 }
 .Blog{
     max-width: 1202px;
