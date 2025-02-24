@@ -313,7 +313,7 @@ header .login:hover svg path{
     bottom: -140px;
     left: 41%;
     gap: 26px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .containerCard:hover .IconsLink{
     opacity: 1;
@@ -324,7 +324,33 @@ header .login:hover svg path{
     width: 20px;
     height: 20px;
     bottom: 190px;
-    transition: .3s ease
+    transition: 0.4s;
+}
+.Card_pages{
+   display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 145px;
+    list-style: none;
+}
+.Card_pages li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1px;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+.Card_pages li a:hover{
+    content: "";
+    background-color: #46a358;
+    transition: 0.4s ease-in-out;
+    color: #ffffff;
 }
 .Blog{
     max-width: 1202px;
@@ -484,3 +510,239 @@ header .login:hover svg path{
     text-decoration: none;
     list-style: none;
 }
+.FooterBlock{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    background: #FBFBFB;
+    align-items: center;
+    margin-right: 120px;
+}
+.FooterBlock1{
+    padding-top: 24px;
+    padding-left: 25px;
+    padding-bottom: 24px;
+    flex-direction: row;
+    gap: 61px;
+}
+.Footer_input_block{
+    padding-top: 24px;
+    padding-right: 25px;
+    padding-bottom: 24px;
+    padding-left: 62px;
+}
+.Containerinput{
+    border-radius: 6px;
+    max-width: 354px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 25px;
+    display: inline-flex;
+}
+.Containerinput input{
+    border: none;
+    background: transparent;
+    height: 40px;
+    width: 269px;
+    border-radius: 6px;
+   }
+.Containerinput button{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    width: 85px;
+    height: 40px;
+    background: #46a358;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+.FooterBlock1 h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 94%;
+    color: #3d3d3d;
+    margin-bottom: 9px;
+    text-decoration: none;
+}
+.FooterBlock1 p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+.Footer_input_block h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.Footer_input_block p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #727272;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.Footer_centre{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+}
+.Footer_centre a{
+    padding-left: 23px;
+}
+.Footer_centre .Footer_centre_phone{
+    padding-right: 23px;
+}
+.Footer_centre_address, .Footer_centre_mail, .Footer_centre_phone{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0;
+    gap: 10px;
+
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.Footer_info{
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
+    background: #fbfbfb;
+}
+.Footer_info_MyAccount h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding-top: 33px;
+    padding-left: 25px;
+    padding-bottom: 19px;
+    text-decoration: none;
+}
+.Footer_info_MyAccount ul li a{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 25px;
+}
+.Footer_info_MyAccount ul, .Footer_info_HelpGuide ul, .Footer_info_Categories ul{
+    list-style: none;
+}
+.Footer_info_HelpGuide h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-top: 33px;
+    padding-bottom: 8px;
+}
+.Footer_info_HelpGuide ul li a{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.Footer_info_Categories h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-top: 33px;
+    padding-bottom: 8px;
+}
+.Footer_info_Categories ul li a{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.Footer_info_MyAccount,.Footer_info_HelpGuide, .Footer_info_Categories{
+    margin-bottom: 27px;
+}
+.Media{
+    padding-top: 33px;
+    padding-right: 155px;
+    padding-bottom: 47px;
+}
+.Footer_info_social h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.Footer_peymetodes h4{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    text-decoration: none;
+    padding-bottom:14px;
+}
+.Footer_info_social {
+    padding-bottom: 33px;
+}
+.Reserved p{
+    font-family: 'fontspring_demo_-_cera_proRg';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-decoration: none;
+    text-align: center;
+}
+
